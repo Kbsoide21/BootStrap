@@ -1,0 +1,64 @@
+/* Default background for small screens */
+body {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+/* Breakpoints */
+/* XXS */
+@media (max-width: 575.98px) {
+    body {
+        background-color: lightcoral;
+        color: white;
+    }
+}
+
+/* XS */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        background-color: lightgrey;
+        color: white;
+    }
+}
+
+/* SM */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        background-color: lightblue; 
+        color: white;
+    }
+}
+
+/* MD */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        background-color: greenyellow;
+        color: white;
+    }
+}
+
+/* LG */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    body {
+        background-color: purple; 
+        color: white;
+    }
+}
+
+/* XL */
+@media (min-width: 1400px) and (max-width: 1599.98px) {
+    body {
+        background-color: orange; 
+        color: white;
+    }
+}
+
+/* XXL */
+@media (min-width: 1600px) {
+    body {
+        background-color: aqua; 
+        color: white;
+    }
+}

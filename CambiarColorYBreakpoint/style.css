@@ -1,0 +1,51 @@
+/* Default background for small screens */
+body {
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease;
+}
+
+/* Breakpoints */
+
+/* XS */
+@media (max-width: 249px) {
+    body {
+        background-color: violet;
+    }
+}
+
+/* SM */
+@media (min-width: 250px) and (max-width: 499px) {
+    body {
+        background-color: violet; 
+    }
+}
+
+/* MD */
+@media (min-width: 500px) and (max-width: 749px) {
+    body {
+        background-color: violet;
+    }
+}
+
+/* LG */
+@media (min-width: 750px) and (max-width: 999px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* XL */
+@media (min-width: 1000px) and (max-width: 1249px) {
+    body {
+        background-color: green; 
+    }
+}
+
+/* XXL */
+@media (min-width: 1250px) {
+    body {
+        background-color: green; 
+    }
+}
