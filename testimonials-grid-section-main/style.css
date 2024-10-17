@@ -1,0 +1,151 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&display=swap");
+
+:root {
+    --white: #ffffff;
+    --purple: #7541c8;
+    --lighpurple: #a775f1;
+    --grey: #49556b;
+    --balckishblue: #18202d;
+    --lightgrey: #a7abae;
+    --darkgrey: #5a636c;
+}
+
+* {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 12px;
+    color: var(--white);
+}
+
+p,
+h1 {
+    color: var(--white);
+}
+
+.daniel {
+    border-radius: 15px;
+    background-color: var(--purple);
+    width: 312px;
+    padding: 30px;
+}
+
+.info {
+    margin: 0px;
+}
+
+.quote-icon {
+    position: absolute;
+    right: 20px;
+    top: 8px;
+}
+
+.quote-icon img {
+    height: 102px;
+    width: 104px;
+}
+
+.info-detalles {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.persona-imagen {
+    border-radius: 100%;
+    padding-right: 10px;
+}
+
+.persona-imagen img {
+    border: 2px solid var(--lighpurple);
+    width: 31px;
+    height: 31px;
+    border-radius: 100%;
+}
+
+.descripcion p {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.quote p {
+    color: var(--white);
+    font-size: 13px;
+}
+
+.black-text {
+    color: var(--darkgrey);
+}
+
+.each-wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.jonathan {
+    border-radius: 15px;
+    background-color: var(--grey);
+    max-width: 312px;
+    padding: 30px;
+}
+.janette, .kira {
+    border-radius: 15px;
+    background-color: var(--white);
+    box-shadow: 5px 15px 15px rgba(0, 0, 0, 0.17);
+    max-width: 312px;
+    padding: 30px;
+}
+.descripcion .des {
+    color: var(--balckishblue);
+    font-size: 20px;
+    font-weight: 500;
+}
+.quote .qt {
+    color: var(--balckishblue);
+    font-size: 13px;
+}
+.patrick {
+    border-radius: 15px;
+    background-color: var(--balckishblue);
+    max-width: 312px;
+    padding: 30px;
+}
+
+@media screen and (min-width: 992px){
+.parent-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+}
+.first-row, .second-row {
+    display: flex;
+    flex-direction: row;
+}
+.patrick {
+    max-width: 250
+}
+.daniel, .patrick{
+    max-width: 550px;
+    width:550px
+}
+.quote-icon {
+    left: 700px
+}
+}
+
+.parent-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    align-items:center;
+}
